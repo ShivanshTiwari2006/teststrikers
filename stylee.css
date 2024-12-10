@@ -11,6 +11,12 @@ body {
     text-align: center;
 }
 
+h1{
+    margin:0px;
+    
+
+}
+
 .switch {
     position: relative;
     display: inline-block;
