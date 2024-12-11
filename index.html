@@ -3,20 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toggle Effects</title>
-    <link rel="stylesheet" href="stylee.css">
+    <title>STRIKER'S AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script defer src="scripts.js"></script>
 </head>
 <body>
-    <h1> STRIKER'S AI TEST MATERIAL</h1>
-    <div class="container">
-        <label class="switch">
-            <input type="checkbox" id="toggleSwitch">
-            <span class="slider round"></span>
-        </label>
-        <div class="content">
-            <p>Hover over me!</p>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">STRIKER'S AI</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#solutions">Solutions</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
-    <script src="scripts.js"></script>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>STRIKER'S AI</h1>
+            <p>We provide cutting-edge solutions tailored for innovation and excellence.</p>
+            <a href="#solutions" class="btn-primary">GET STARTED</a>
+        </div>
+    </section>
+
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <h2>Explore Our Solutions</h2>
+            <div class="solution-grid">
+                <div class="solution-card">
+                    <h3><i class="fas fa-bolt"></i> Electric Blue</h3>
+                    <p>AI-driven innovations for every industry.</p>
+                </div>
+                <div class="solution-card">
+                    <h3><i class="fas fa-robot"></i> Advanced Robotics</h3>
+                    <p>Enhancing efficiency with robotics solutions.</p>
+                </div>
+                <div class="solution-card">
+                    <h3><i class="fas fa-cloud"></i> Scalable Services</h3>
+                    <p>Cloud-powered scalable services for growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 STRIKER'S AI. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
