@@ -3,137 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="STRIKER'S AI - Advancing Artificial Intelligence with Microsoft Fabric integration.">
+    <meta name="author" content="STRIKER'S AI Team">
     <title>STRIKER'S AI</title>
+    
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="stylee.css">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
+    <!-- Header Section -->
+    <header aria-label="Main Header">
         <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="STRIKER'S AI Logo">
+                </a>
+            </div>
             <nav>
-                <a href="index.html" class="logo">STRIKER'S AI</a>
                 <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-                <div class="cta">
-                    <a href="#" class="btn btn-primary">Get Started</a>
-                </div>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
             </nav>
+            <div class="cta">
+                <a href="#get-started" class="button">Get Started</a>
+            </div>
         </div>
     </header>
 
+    <!-- Main Content -->
     <main>
-        <section class="hero">
-            <div class="hero-background">
-                <img src="images/technology-8280863_1920.jpg" alt="Hero Background">
-            </div>
-            <div class="container">
-                <h1>Welcome to STRIKER'S AI</h1>
-                <p>Empowering Innovation, Accelerating Intelligence</p>
-                <a href="#" class="btn btn-secondary">Learn More</a>
-            </div>
-        </section>
-        
-
-        <section class="features">
-            <div class="container">
-                <h2>Why Choose Us</h2>
-                <div class="feature-grid">
-                    <div class="feature-item">
-                        <i class="fas fa-rocket"></i>
-                        <h3>Innovative Solutions</h3>
-                        <p>We provide innovative and scalable technology solutions for your business growth.</p>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-shield-alt"></i>
-                        <h3>Top-notch Security</h3>
-                        <p>Security is our top priority. We ensure your data is always protected.</p>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-chart-line"></i>
-                        <h3>Proven Results</h3>
-                        <p>Experience measurable results that boost your operational efficiency.</p>
-                    </div>
-                </div>
-            </div>
+        <section id="about">
+            <h1>Welcome to STRIKER'S AI</h1>
+            <p>We specialize in advancing AI and integrating it seamlessly with Microsoft Fabric to drive innovation and transformation.</p>
         </section>
 
-        <section class="key-features">
-            <div class="container">
-                <h2>Key Features</h2>
-                <div class="feature-grid">
-                    <div class="feature-item">
-                        <i class="fas fa-project-diagram"></i>
-                        <h3>Multi-model Integration</h3>
-                        <p>Seamlessly integrate diverse data models under one unified platform.</p>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-brain"></i>
-                        <h3>AI-Powered Solutions</h3>
-                        <p>Leverage cutting-edge AI technology to unlock business potential.</p>
-                    </div>
-                    <div class="feature-item">
-                        <i class="fas fa-expand"></i>
-                        <h3>Scalable and Efficient Systems</h3>
-                        <p>Ensure performance and scalability tailored to your growing needs.</p>
-                    </div>
-                </div>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <article class="service-item">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI Integration</h3>
+                    <p>Seamlessly integrate AI into your existing systems.</p>
+                </article>
+                <article class="service-item">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud AI Solutions</h3>
+                    <p>Scalable and efficient cloud-native AI applications.</p>
+                </article>
+                <article class="service-item">
+                    <i class="fas fa-database"></i>
+                    <h3>Data Modeling</h3>
+                    <p>Advanced multi-model integration for data-driven decisions.</p>
+                </article>
             </div>
         </section>
-        
-        <section class="testimonials">
-            <div class="container">
-                <h2>What Our Clients Say</h2>
-                <div class="testimonial-grid">
-                    <div class="testimonial-item">
-                        <p>"IT WAS GOOD WORKING WITH THIS COMPANY."</p>
-                        <h4>ANMOL SRIVASTAVA</h4>
-                        <span>CO-FOUNDER</span>
-                    </div>
-                    <div class="testimonial-item">
-                        <p>"IT WAS GOOD WORKING WITH THIS COMPANY."</p>
-                        <h4>Jane Smith</h4>
-                        <span>AI Innovations</span>
-                    </div>
-                    <div class="testimonial-item">
-                        <p>"IT WAS GOOD WORKING WITH THIS COMPANY."</p>
-                        <h4>Mark Taylor</h4>
-                        <span>CTO, NextGen Systems</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-
-        <section class="call-to-action">
-            <div class="container">
-                <h2>Ready to Elevate Your Business?</h2>
-                <a href="#" class="btn btn-primary">Get Started Today</a>
-            </div>
-        </section>
-
-        <footer>
-            <div class="container">
-                <p>&copy; 2024 STRIKER'S AI. All Rights Reserved.</p>
-                <ul class="social-links">
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                </ul>
-            </div>
-        </footer>
     </main>
 
-    <script src="scripts.js"></script>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 STRIKER'S AI. All Rights Reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
 </body>
 </html>
+
